@@ -27,7 +27,7 @@
     ?>
     */
 
-$numberOfHobbits = 2;
+/** $numberOfHobbits = 2;
 switch ($numberOfHobbits){
     case 1:
         echo "1 sad hobbit";
@@ -41,6 +41,23 @@ switch ($numberOfHobbits){
     default:
         echo "All the hobbits have gone home";
 }
+*/
+    $wantedgood = "mugs";
+    switch ($wantedgood){
+        case "mugs":
+            echo "You have to be 18 to buy mugs";
+            break;
+        case "spoons":
+            echo "You have to be 24 to buy spoons";
+            break;
+        case "knives":
+            echo "You have to be 9 to buy knives";
+            break;
+        default:
+            echo "You are too old";
+    }
+
+
 
 ?>
 
