@@ -42,6 +42,7 @@ switch ($numberOfHobbits){
         echo "All the hobbits have gone home";
 }
 */
+    /**
     $wantedgood = "mugs";
     switch ($wantedgood){
         case "mugs":
@@ -56,6 +57,21 @@ switch ($numberOfHobbits){
         default:
             echo "You are too old";
     }
+
+*/
+
+    $myArray = array("do", "re", "mi");
+
+    echo $myArray[0];
+
+    $myArray[1] = "la";
+
+    echo $myArray[1];
+
+    unset($myArray[2]);
+
+
+
 
 
 
