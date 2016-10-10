@@ -59,7 +59,7 @@ switch ($numberOfHobbits){
     }
 
 */
-
+/**
     $myArray = array("do", "re", "mi");
 
     echo $myArray[0];
@@ -69,6 +69,15 @@ switch ($numberOfHobbits){
     echo $myArray[1];
 
     unset($myArray[2]);
+
+    */
+
+
+
+
+
+
+
 
 
 
