@@ -11,8 +11,8 @@ define('DB_DATABASE','1307894db');
 
 $db = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 
-if($db>connect_errno){
-    die('Connect failed['.$db>connect_error.']');
+if($db->connect_errno){
+    die('Connect failed['.$db->connect_error.']');
 }
 
 // Start XML file, create parent node
