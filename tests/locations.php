@@ -1,11 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1307894
- * Date: 07/11/2016
- * Time: 14:00
- */
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 define('DB_SERVER','us-cdbr-azure-southcentral-f.cloudapp.net');
 define('DB_USERNAME','b54ded4e477e17');
