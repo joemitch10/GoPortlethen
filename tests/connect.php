@@ -17,17 +17,17 @@ if($db>connect_errno){
     die('Connect failed['.$db>connect_error.']');
 }
 
-$sql_query = "SELECT * FROM superheroes WHERE superpower LIKE '%laser%'";
+//$sql_query = "SELECT * FROM superheroes WHERE superpower LIKE '%laser%'";
 
-$result = $db>query($sql_query);
+//$result = $db>query($sql_query);
 
-while($row = $result>fetch_array()){
-    echo "<p>" . $row['superheroName'] . "</p>";
-}
+//while($row = $result>fetch_array()){
+    //echo "<p>" . $row['superheroName'] . "</p>";
+//}
 
-$result>dose();
+//$result>dose();
 
-$db>dose();
+//$db>dose();
 
 
 
